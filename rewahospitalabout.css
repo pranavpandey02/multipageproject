@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+.background{
+    height: 100vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to top,rgba(13, 13, 36, 0.897) 50%,rgba(138, 138, 187, 0.918)),url(https://ehealth.eletsonline.com/wp-content/uploads/2009/07/best-hospital-in-south-india.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 .logo div img{
+    height: 90px;
+}
+
+.nav1 .ancor1{
+    display: flex;
+    padding: 45px;
+    /* margin-left: 20px; */
+    margin-right: -22px;
+}
+.nav1 .ancor1 div a{
+    text-decoration: none;
+     margin: 17px;
+     color:white;
+}
+.bc1 div img{
+height: 100vh;
+}
+/* ==============hero================= */
+.hero .h1 .div1{
+    font-size: 80px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 150px;
+    /* margin-left: 20px; */
+
+}
+.hero .h1 .div2{
+    margin-left: 550px;
+    color: white;
+   border-radius: 20px;
+   background-color: rgb(56, 56, 173);
+   padding: 20px;
+   width: 170px;
+   /* margin-left: 20px; */
+}
+.hero .h1 .div2 a{
+    color: white;
+    font-size: 20px;
+   margin-left: 20px;
+   text-decoration: none;
+}
+/* ============about=========== */
+.background3{
+    /* background-color: rgb(222, 245, 245);  */
+    margin-top: 200px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    /* padding: 50px; */
+}
+.aboutc1 .div1 img{
+    width: 200px;
+      height: 200px;
+      /* padding: 5px; */
+      margin-left: 40px;
+      margin-top: 30px;
+  }
+   .aboutc1 .div2 img{
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+.aboutc2 .div1{
+    font-size: 20px;
+    margin-left: 150px;
+    color: rgb(4, 4, 175);
+    margin-top: 0px;
+}
+.aboutc2 .div2{
+    font-size: 50px;
+    margin-left: 150px;
+    color: rgb(4, 4, 175);
+}
+.aboutc2 .div3{
+    font-size: 20px;
+    margin-left: 157px;
+    color: rgb(134, 120, 120);
+}
+.aboutc3{
+    /* margin-bottom: -50px; */
+    margin-top: 500px;
+    margin-left: -550px;
+    color: rgb(6, 6, 138);
+}
+.aboutc4{
+    margin-top: 500px;
+    margin-left: 90px;
+    color: rgb(6, 6, 138);
+}
+.aboutc5{
+    margin-top: 800px;
+    margin-left: 90px;
+    color: rgb(6, 6, 138);
+}
+/* ===========about ke neeeche wala========== */
+.background0{
+    padding: 50px;
+}
+.background2{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+
+}
+.servies .serviesc1 .div1{
+    font-size: 20px;
+    color: darkblue;
+    margin-left: 450px;
+    
+}
+.servies .serviesc1 .div2{
+    font-size: 40px;
+    color: rgb(1, 1, 43);
+    margin-left: 370px;
+}
+.servies .serviesc1{
+    padding: 10px;
+}
+/* ==========servies card */
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.card article{
+    margin-right: -5px;
+    margin-top: 15px;
+    background-color:white;
+    width: 280px;
+    height: 300px;
+    /* margin: 5px; */
+}
+.card0 img{
+    height: 80px;
+    margin-left: 105px;
+}
+.card11{
+    font-size: 30px;
+    margin-left: 45px;
+    color:rgb(10, 10, 247) ;
+}
+.card12{
+    font-size: 20px;
+    margin-left: 42.5px;
+    color: rgb(75, 70, 70);
+}
+.card{
+    background-color: rgb(190, 255, 255);
+    width: 1500px;
+    height: 650px;
+    width: 1500px;
+    margin-left: -120px;
+}
+/* ===========process ke neeche wali line */
+.doctor{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.doctorc1 div img{
+    height: 750px;
+    width: 650px;
+}
+.doctorc2 div img{
+    height: 750px;
+    width: 650px;
+}
+
+.background7{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725840000&semt=ais_hybrid);
+    padding: 100px;
+    
+    width:1500px ;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.servicedown1{
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: -220px;
+    margin-top: -30px;
+
+}
+.servicedownc1 .div2{
+    font-size: 30px;
+    /* margin-left: -220px; */
+}
+.servicedownc1 .div3{
+    font-size: 18px;
+}
+/* ===========footer============ */
+.background10{
+    margin: 150px;
+}
+
+.footer{
+    height: 400px;
+    width: 1050px;
+    margin-left: -40px;
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    /* z-index: 3px; */
+}
+.footer .footeru1 div img{
+height: 500px;
+width: 1100px;
+border-radius: 5px;
+margin-left: -30px;
+margin-top: -150px;
+
+}
+.footerc1 div img{
+    margin-top: -30px;
+    margin-left:-1150px ;
+    /* z-index: 2; */
+    margin-top: -180px;
+}
+.footerc2 .div1{
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
+    margin-left:-600px ;
+}
+.footerc2 .div2{
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    margin-left:-600px ;
+}
+.footerc2 .div3{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left:-600px ;
+}
+
+/* ==============footer2============ */
+.f2{
+    background-image: url(https://www.disalco.com.co/544-large_default/azul-pacifico-2170.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -400px;
+    /* z-index: 0;    */
+}
+.f21 div img{
+    height: 140px;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.f221{
+    color: white;
+}
+.f22 div a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+}
+.f223{
+    color: white;
+    font-size: 25px;
+    margin-top: 190px;
+}
+.f224{
+    color: white;
+    font-size: 20px;
+    margin-top: 190px;
+}
+.f225{
+    color: white;
+}

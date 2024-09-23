@@ -1,0 +1,808 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* ===============navbar1============= */
+.background{
+    background-color: blue;
+    height: 142.2vh;
+    width: 100%;
+    background: linear-gradient(to top,rgba(13, 13, 36, 0.897) 50%,rgba(138, 138, 187, 0.918)),url(https://ehealth.eletsonline.com/wp-content/uploads/2009/07/best-hospital-in-south-india.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 .logo div img{
+    height: 90px;
+}
+
+.nav1 .ancor1{
+    display: flex;
+    padding: 45px;
+    margin-right: -22px;
+}
+.nav1 .ancor1 div a{
+    text-decoration: none;
+     margin: 17px;
+     color:white;
+}
+
+/* ==============hero============== */
+.hero{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.heroc1 .div1{
+font-size: 40px;
+color: white;
+}
+.heroc1 .div2{
+    font-size: 30px;
+    color: white;
+}
+.heroc1 .div3{
+    font-size: 20px;
+    color: white;
+}
+.heroc2 img{
+    margin-right: -90px;
+}
+/* ==============hero ke neeche wala section ========servies=========== */
+.background2{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 150px;
+}
+.servies .serviesc1 .div1{
+    font-size: 20px;
+    color: darkblue;
+    margin-left: 450px;
+    
+}
+.servies .serviesc1 .div2{
+    font-size: 40px;
+    color: rgb(1, 1, 43);
+    margin-left: 370px;
+}
+.servies .serviesc1{
+    padding: 10px;
+}
+/* ==========servies card */
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.card article{
+    margin-left: -120px;
+    margin-top: 20px;
+    background-color:rgb(243, 242, 242);
+    width: 280px;
+    height: 300px;
+}
+.card0 img{
+    height: 80px;
+    margin-left: 105px;
+}
+.card11{
+    font-size: 30px;
+    margin-left: 45px;
+    color:rgb(10, 10, 247) ;
+}
+.card12{
+    font-size: 20px;
+    margin-left: 42.5px;
+    color: rgb(75, 70, 70);
+}
+    
+/* ============servies ke neeche wala page========= */
+.background3{
+    background-color: rgb(222, 245, 245);
+    height: 100vh;
+}
+@media(max-width:993px){
+    .background3{
+        height: 120vh;
+    }
+    .i3{
+        /* margin-left: 150px; */
+        margin-top: -120px;
+        border-radius: 15px;
+    }
+    
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.aboutc1 div img{
+    padding-top: 60px;
+    width: 200px;
+    height: 200px;
+    /* padding: 5px; */
+}
+.aboutc1 div img:hover{
+    scale: 1.2;
+}
+.i3{
+    /* margin-left: 150px; */
+    margin-top: -150px;
+    border-radius: 15px;
+}
+.i2{
+    margin-left: 150px;
+    margin-top: -150px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.aboutc2 .div1{
+    font-size: 20px;
+    margin-left: 200px;
+    color: rgb(4, 4, 175);
+}
+.aboutc2 .div2{
+    font-size: 50px;
+    margin-left: 200px;
+}
+.aboutc2 .div3{
+    font-size: 20px;
+    margin-left: 200px;
+    color: rgb(134, 120, 120);
+}
+.aboutc3{
+    /* margin-bottom: -50px; */
+    margin-top: 580px;
+    margin-left: -597px;
+    color: rgb(6, 6, 138);
+}
+/* .aboutc4{
+    margin-top: 580px;
+    margin-left: 90px;
+    color: rgb(6, 6, 138);
+} */
+/* ================Word process about ke neeche wali ===============  */
+.background4{
+    background-color: white;
+    padding: 80px;
+}
+.workc1 .div1{
+    font-size: 20px;
+    color: darkblue;
+    margin-left: 500px;
+}
+.workc1 .div2{
+    font-size: 40px;
+    color: rgb(1, 1, 43);
+    margin-left: 400px;
+}
+.workc1 .div3{
+    font-size: 18px;
+color: rgb(116, 107, 107);
+margin-left: 30px;
+}
+/* ================process ke neeche wali line========== */
+.doctor{
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.doctorc1 div img{
+    height: 750px;
+    width: 650px;
+}
+.doctorc2 div img{
+    height: 750px;
+    width: 700px;
+}
+/* =============form========= */
+body{
+    /* background-color: blue; */
+    /* z-index: ; */
+}
+
+.background6{
+    margin-top: -700px;
+    /* z-index: 5; */
+    margin-left: 400px;
+    padding: 73px;
+    /* background-color: blue; */
+}
+.regform{
+    width: 600px;
+    /* background-color: rgb(30, 30, 151); */
+    height: 500px;
+    z-index: 3;
+    
+    
+}
+/* .regform div input::placeholder{
+    color: silver;
+}
+.regform div input{
+    margin-top: 50px;
+}
+.div90{
+    margin-left: -700px;
+}
+.div91{
+    margin-left: -700px;
+}
+.div92{
+    margin-left: -700px;
+}
+.regform .div1{
+    font-size: 19px;
+    margin-left: -800px;
+    margin-top: -500px;
+    color: white;
+
+}
+.regform .div2{
+    font-size: 35px;
+    margin-left: -735px;
+    color: white;
+} */
+/* .regform div input::placeholder{
+    color: silver;
+}
+.regform div input{
+    margin-top: 50px;
+}
+.div90{
+    margin-left: -700px;
+}
+.div91{
+    margin-left: -700px;
+}
+.div92{
+    margin-left: -700px;
+} */
+/* .regform .div1{
+    font-size: 19px;
+    margin-left: -800px;
+    margin-top: -500px;
+    color: white;
+
+} */
+/* .regform .div2{
+    font-size: 35px;
+    margin-left: -735px;
+    color: white;
+} */
+.img1 div img{
+height: 500px;
+width: 600px;
+margin-left: -250px;
+border-radius: 5px;
+margin-top: -50px;
+}
+.background7{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725840000&semt=ais_hybrid);
+  /* height: 300px; */
+    padding: 50px;
+    width:1500px ;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+.servicedown1{
+    justify-content:space-around;
+    display: flex;
+    
+}
+.servicedownc1{
+    margin-left: -150px;
+    }
+    .servicedownc1 .div2{
+        font-size: 30px;
+    }
+    .servicedownc1 .div3{
+        font-size: 18px;
+    }
+/* ===========footer============ */
+.background10{
+    margin: 150px;
+}
+
+.footer{
+  
+    height: 400px;
+    width: 1050px;
+    margin-left: -40px;
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    /* z-index: 3px; */
+}
+.footer .footeru1 div img{
+height: 500px;
+width: 1100px;
+border-radius: 5px;
+margin-left: -30px;
+margin-top: -150px;
+
+}
+.footerc1 div img{
+    margin-top: -30px;
+    margin-left:-1150px ;
+    /* z-index: 2; */
+    margin-top: -180px;
+}
+.footerc2 .div1{
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
+    margin-left:-600px ;
+}
+.footerc2 .div2{
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    margin-left:-600px ;
+}
+.footerc2 .div3{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left:-600px ;
+}
+
+/* ==============footer2============ */
+.f2{
+    background-image: url(https://www.disalco.com.co/544-large_default/azul-pacifico-2170.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -400px;
+    /* z-index: 0;    */
+}
+.f21 div img{
+    height: 140px;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.f221{
+    color: white;
+}
+.f22 div a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+}
+.f223{
+    color: white;
+    font-size: 25px;
+    margin-top: 190px;
+}
+.f224{
+    color: white;
+    font-size: 20px;
+    margin-top: 190px;
+}
+.f225{
+    color: white;
+}
+
+/* ============mediaquery======== */
+@media(max-width:1024px){
+    .card{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } 
+    .servies .serviesc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: 300px;
+        margin-top: -100px;
+        
+    }
+    .servies .serviesc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: 220px;
+    }
+    .card article{
+        margin-left: -120px;
+        /* margin-bottom: -100px; */
+        background-color:rgb(243, 242, 242);
+        width: 280px;
+        height: 300px;
+    }
+    .card0 img{
+        height: 80px;
+        margin-left: 105px;
+    }
+    .background2{
+        background-color: white;
+        height: 120vh;
+        width: 100%;
+        padding: 150px;
+    }
+    .hero{
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        margin-left: 30px;
+    }
+    .workc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: -700px;
+    }
+    .workc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: 400px;
+    }
+    .background4{
+        background-color: white;
+        padding: 80px;
+    }
+    .workc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: 300px;
+    }
+    .workc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: 200px;
+    }
+    .workc1 .div3{
+        font-size: 18px;
+    color: rgb(116, 107, 107);
+    margin-left: 30px;
+    }
+    .footer .footeru1 div img{
+        height: 500px;
+        width: 1000px;
+        border-radius: 5px;
+        margin-left: -150px;
+        margin-top: -150px;
+        
+        }
+        .footerc1 div img{
+            margin-left:-1100px ;
+        }
+        .footerc2 .div1 {
+            margin-left:-550px ;
+        }
+        .footerc2 .div2{
+          
+            margin-left:-550px ;
+        }
+        .footerc2 .div3{
+            margin-left:-550px ;
+        }
+   
+      }
+      @media(max-width:960px){
+        .nav1 .ancor1{
+            padding: 20px;
+        }
+            .footerc2 .div2{
+              font-size: 20px;
+               
+            }
+            .footerc2 .div3{
+                font-size: 18px;
+            }
+      }
+      @media(max-width:911px){
+        .nav1 .ancor1{
+            padding: 10px;
+        }}
+        @media(max-width:889px){
+            .nav1 .ancor1{
+              display: none;
+            }}
+
+      @media(max-width:1011px){
+       .search a{
+            display: none;
+
+        }
+      }
+      /* =========media query2 */
+      @media(max-width:935px){
+        
+        .card article{
+            margin-left: -140px 
+          }  
+          .background3{
+            background-color: rgb(222, 245, 245);
+            height: 140vh;
+        }
+          }
+         
+   @media(max-width:848px){
+    .card{
+        display: grid;
+    
+        grid-template-columns:  auto auto;
+
+    }
+    
+    .c7{
+        display: none;
+    }
+    .c8{
+        display: none;
+    }
+   }
+   /* mmmedia query2 */
+   @media(max-width:768px){
+    .servies .serviesc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: 150px;
+        
+    }
+    .servies .serviesc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: 70px;
+    }
+.card{
+    display: grid;
+    grid-template-columns:  auto auto;
+}
+.card article{
+    margin-right: 155px;
+    margin-top: 20px;
+    background-color:rgb(243, 242, 242);
+    width: 280px;
+    height: 300px;
+}
+
+
+
+.aboutc2 .div1{
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(4, 4, 175);
+}
+.aboutc2 .div2{
+    font-size: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.aboutc2 .div3{
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(134, 120, 120);
+}
+.background3{
+    background-color: rgb(222, 245, 245);
+    height: 90vh;
+}
+.serviesc1{
+    margin-left: 150px;
+}
+.workc1 .div1{
+    margin-left: 200px;
+}
+.workc1 .div2{
+    margin-left: 100px;
+}
+.doctorc2{
+    display: none;
+}
+.doctorc1{
+    width: 100%;
+    /* height: 50vh; */
+}
+.background6{
+    margin-top: -695px;
+    /* z-index: 5; */
+    margin-left: 400px;
+    padding: 73px;
+    /* background-color: blue; */
+}
+.servicedownc1{
+    margin-left: -100px;
+    }
+    .servicedownc1 img{
+        /* height: 50px; */
+    }
+    .servicedownc1 .div2{
+        font-size: 30px;
+    }
+    .servicedownc1 .div3{
+        font-size: 18px;
+    }
+    .hero{
+        justify-content: space-evenly;
+        /* align-items: center; */
+        display: block;
+    }
+    .heroc2 img{
+        height: 600px;
+        margin-bottom: -593px;
+        margin-left: 250px;
+    }
+    .heroc1{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: auto  auto;
+    }
+    .card article{
+        margin-left: -100px;
+        margin-top: 20px;
+        background-color:rgb(243, 242, 242);
+        width: 280px;
+        height: 300px;
+    }
+    .background2{
+        background-color: white;
+        height: 120vh;
+        width: 100%;
+        padding: 150px;
+    }
+    .servies .serviesc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: -10px;
+        
+    }
+    .servies .serviesc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: -100px;
+    }
+    .about{
+        display: block;
+        align-items: center;
+        padding: 50px;
+    }
+    .aboutc2 .div2{
+        font-size: 20px;
+        margin-left: 120px;
+        font-size: 30px;
+    }
+    .aboutc2 .div1{
+        font-size: 10px;
+        margin-left: 200px;
+        font-size: 30px;
+        /* margin-bottom: 30px; */
+    }
+    .aboutc2 .div3{
+        font-size: 20px;
+        margin-left: 100px;
+        color: rgb(134, 120, 120);
+    }
+    .background3{
+        height: 130vh;
+    }
+}
+@media(max-width:426px){
+    .heroc1{
+        margin-left: 15px;
+    }
+    
+    .heroc2 img{
+        height: 500px;
+        margin-bottom: -512px;
+        margin-left: 10px;
+    }
+    .background2{
+        height: 260vh;
+        margin-left: 30px;
+    }
+
+   .card{
+        display: grid;
+        grid-template-columns:  auto;
+    }
+    .servies .serviesc1 .div1{
+        font-size: 20px;
+        color: darkblue;
+        margin-left: -200px;
+        
+    }
+    .servies .serviesc1 .div2{
+        font-size: 40px;
+        color: rgb(1, 1, 43);
+        margin-left: -280px;
+    }
+    .about{
+        display: block;
+        align-items: center;
+        padding: 50px;
+    }
+    .aboutc2 .div2{
+        font-size: 1px;
+        margin-left: 70px;
+        font-size: 30px;
+    }
+    .aboutc2 .div1{
+        font-size: 10px;
+        margin-left: 100px;
+        font-size: 30px;
+        /* margin-bottom: 30px; */
+    }
+    .aboutc2 .div3{
+        font-size: 20px;
+        margin-left: 70px;
+        color: rgb(134, 120, 120);
+    }
+    .background3{
+        height: 150vh;
+    }
+    .serviesc1{
+        margin-left: 50px;
+    }
+    .workc1 .div1{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .workc1 .div2{
+        margin-left: 20px;
+        font-size: 23px;
+    }
+    .doctorc2{
+        display: none;
+    }
+    .doctorc1{
+        width: 500px;
+        /* height: 50vh; */
+    }
+    .f21 div img{
+    display: none;
+    }    
+    
+     .f221{
+        display: none;
+     }     
+}
+@media(max-width:375px){
+    .heroc2 img{
+        height: 400px;
+        margin-bottom: -450px;
+        margin-left: 10px;
+    }
+    
+    .card article{
+        margin-left: -130px;
+         
+    }
+    .serviesc1{
+        margin-left: 100px;
+    }
+    .background2{
+        height: 280vh;
+        margin-left: 30px;
+    }
+    .background3{
+        height: 180vh;
+    }
+    .workc1 .div2{
+        margin-left: 18px;
+        font-size: 20px;
+    }
+    .workc1 .div1{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .f23{
+        display: none;
+    }
+}

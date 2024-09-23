@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+.background{
+ 
+    height: 100vh;
+    background: linear-gradient(to top,rgba(13, 13, 36, 0.897) 50%,rgba(138, 138, 187, 0.918)),url(https://ehealth.eletsonline.com/wp-content/uploads/2009/07/best-hospital-in-south-india.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 .logo div img{
+    height: 90px;
+}
+/* .search div a{
+    color: white;
+    margin-left: 500px;
+} */
+.nav1 .ancor1{
+    display: flex;
+    padding: 45px;
+    /* margin-left: 20px; */
+    margin-right: -22px;
+}
+.nav1 .ancor1 div a{
+    text-decoration: none;
+     margin: 17px;
+     color:white;
+}
+.bc1 div img{
+height: 100vh;
+}
+/* ==============hero================= */
+.hero .h1 .div1{
+    font-size: 80px;
+    color: white;
+    margin-left: 510px;
+    margin-top: 150px;
+}
+.hero .h1 .div2{
+    margin-left: 550px;
+    color: white;
+   border-radius: 20px;
+   background-color: rgb(56, 56, 173);
+   padding: 20px;
+   width: 170px;
+   /* margin-left: 20px; */
+}
+.hero .h1 .div2 a{
+    color: white;
+    font-size: 20px;
+   margin-left: 20px;
+   text-decoration: none;
+}
+/* ============hero ke neeche wali line======== */
+.about{
+    display: flex;
+    align-items: center;
+}
+.a11{
+    margin-top: 400px;
+    margin-left: 90px;
+    border-radius: 100;
+}
+.a12{
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 100;
+}
+/* .a13 img{
+  width: 300px;
+  height: 350px;
+  margin-top: -900px;
+    margin-left: 350px;
+
+} */
+.a21{
+    font-size: 20px;
+    color: rgb(10, 10, 138);
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.a22{
+    font-size: 30px;
+    color: rgb(12, 12, 78);
+    margin-left: 250px;
+}
+.a23{
+    font-size: 18px;
+    color: rgba(150, 142, 142, 0.849);
+    margin-left: 250px;
+}
+.a24{
+    font-size: 18px;
+    color:  rgba(150, 142, 142, 0.849);
+    margin-left: 250px;
+}
+/* ==============hero ke neeche wala section ========servies=========== */
+.background2{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 150px;
+}
+.servies .serviesc1 .div1{
+    font-size: 20px;
+    color: darkblue;
+    margin-left: 450px;
+    
+}
+.servies .serviesc1 .div2{
+    font-size: 40px;
+    color: rgb(1, 1, 43);
+    margin-left: 350px;
+}
+.servies .serviesc1{
+    padding: 10px;
+}
+/* ===========footer============ */
+.background10{
+    margin: 150px;
+}
+
+.footer{
+    height: 400px;
+    width: 1050px;
+    margin-left: -200px;
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    /* z-index: 3px; */
+}
+.footer .footeru1 div img{
+height: 500px;
+width: 1100px;
+border-radius: 5px;
+/* margin-left: -30px; */
+margin-top: -150px;
+
+}
+.footerc1 div img{
+    margin-top: -30px;
+    margin-left:-1150px ;
+    /* z-index: 2; */
+    margin-top: -180px;
+}
+.footerc2 .div1{
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
+    margin-left:-600px ;
+}
+.footerc2 .div2{
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    margin-left:-600px ;
+}
+.footerc2 .div3{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    /* margin-left:-600px ; */
+}
+
+/* ==============footer2============ */
+.f2{
+    background-image: url(https://www.disalco.com.co/544-large_default/azul-pacifico-2170.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -400px;
+    /* z-index: 0;    */
+    margin-left: -300px;
+}
+.f21 div img{
+    height: 140px;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.f221{
+    color: white;
+}
+.f22 div a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+}
+.f223{
+    color: white;
+    font-size: 25px;
+    margin-top: 190px;
+}
+.f224{
+    color: white;
+    font-size: 20px;
+    margin-top: 190px;
+}
+.f225{
+    color: white;
+}
